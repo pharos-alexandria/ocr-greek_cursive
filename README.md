@@ -2,12 +2,12 @@
 Training files for Greek cursive script (in early print)
 
 
-Kraken was installed and used following the manual [Training a kraken model](http://kraken.re/training.html#training)
+Kraken was installed and used following the manual [Training a kraken model](http://kraken.re/training.html#training).
 
 
 ## Scans
 
-The scans used are from exemplar of the edition of John Chryostom's works by Henry Savile, ed. Eton (John Norton), Tom. V, 1612, which is today at Bayerische Staatsbibliothek München, Res/2 P.gr. 55-5, and was made available in digitized form at (http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10870413-4).
+The scans used are from exemplar of the edition of John Chrysostom's works by Henry Savile, ed. Eton (John Norton), Tom. V, 1612, which is today at Bayerische Staatsbibliothek München, Res/2 P.gr. 55-5, and was made available in digitized form at (http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10870413-4).
 
 I used pp. 649–653 and 898–906. 
 
