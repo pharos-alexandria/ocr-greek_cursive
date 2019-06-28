@@ -4,8 +4,8 @@ Training files for Greek cursive script (in early print)
 
 Kraken was installed and used following the manual [Training a kraken model](http://kraken.re/training.html#training).
 
-
-## Scans
+## Model for Savile
+### Scans
 
 The scans used are from exemplar of the edition of John Chrysostom's works by Henry Savile, ed. Eton (John Norton), Tom. V, 1612, which is today at Bayerische Staatsbibliothek München, Res/2 P.gr. 55-5, and was made available in digitized form at (http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10870413-4).
 
@@ -14,11 +14,13 @@ I used pp. 649–653 and 898–906.
 The scans downloaded were pre-processed with [ScanTailor](http://scantailor.org/) and are stored in the folder [savile](savile). Also stored in this folder is p. 92, both as the original color and as ScanTailor processed file. 
 
 
-## Transcripts
+### Transcripts
 
 The transcripts of the mentioned pages were taken from the [Patristic Text Archive](https://patristictextarchive.github.io) and converted to plain text ([savile-transcript.txt](savile-transcript.txt) with p. 649-653 and [savile-2-transcript.txt](savile-2-transcript.txt) with p. 898-906).
 
-## Kraken training
+### Kraken training
+
+Transcript files are saved as "output_XX.html" in the folders, the processed transcripts are in the folder [training](training).
 
 ```
 $ ketos extract --output training --normalization NFD *.html
@@ -243,7 +245,7 @@ Errors	Correct-Generated
 
 Average accuracy: 98.68%, (stddev: 0.00)
 ```
-### Results
+#### Results
 
 The model was tested with both the color scan and the ScanTailor-processed scan with better results when the ScanTailor-processed scan is used.
 
@@ -272,6 +274,24 @@ Writing recognition results for /tmp/tmp20fhsm8t	✓
 Test scan: [savile/savile-test-scantailor.tif](savile/savile-test-scantailor.tif) -> Text: [savile-test_2-scantailor.txt](savile-test_2-scantailor.txt)
 
 
-### Model
+#### Model
 
 The best model is saved as [model_grc_savile.mlmodel](model_grc_savile.mlmodel).
+
+## Model for Catena Lipsiensis
+
+### Scans
+
+The scans used are from exemplar of ΣΕΙΡΑ ΕΝΟΣ ΚΑΙ ΠΕΝΤΗΚΟΝΤΑ ΥΠΟΜΝΗΜΑΤΙΣΤΩΝ ΕΙΣ ΤΗΝ ΟΚΤΑΤΕΥΧΟΝ ΚΑΙ ΤΑ ΤΩΝ ΒΑΣΙΛΕΙΩΝ ΗΔΗ ΠΡΩΤΟΝ ΤΥΠΟΙΣ ΕΚΔΟΘΕΙΣΑ ... ΓΡΗΓΟΡΙΟΥ ΑΛΕΞΑΝΔΡΟΥ ΓΚΙΚΑ, ΤΟΜΟΣ ΠΡΩΤΟΣ, Leipzig 1772, which is today at Philipps Universität Marburg,  shelfmark: XIXb A 371 c, 1, and was made available in digitized form at http://archiv.ub.uni-marburg.de/eb/2011/0432.
+
+I used pp. 953–976. 
+
+The scans downloaded were pre-processed with [ScanTailor](http://scantailor.org/) and are stored in the folder [catenalipsiensis](catenalipsiensis). 
+
+### Transcripts
+
+The transcripts of the mentioned pages were made by Janina Skóra and converted to plain text ([Catena_Lispiensis.txt](Catena_Lipsiensis.txt)). The transcription files for kraken are also stored in the folder [catenalipsiensis](catenalipsiensis).
+
+### Model
+
+The best model is saved as [model_grc_catlips.mlmodel](model_grc_catlips.mlmodel).
