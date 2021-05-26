@@ -1,0 +1,163 @@
+Evaluating model_grc_savile.mlmodel
+Evaluating  [####################################]  100%          
+=== report  ===
+
+57865	Characters
+764	Errors
+98.68%	Accuracy
+
+509	Insertions
+115	Deletions
+140	Substitutions
+
+Count	Missed	%Right
+38199	346	99.09%	Greek
+9518	113	98.81%	Common
+10139	187	98.16%	Inherited
+9	3	66.67%	Latin
+
+Errors	Correct-Generated
+71	{ ν } - {  }
+51	{ SPACE } - {  }
+46	{ COMBINING ACUTE ACCENT } - {  }
+28	{  } - { SPACE }
+27	{ α } - {  }
+27	{ ι } - {  }
+23	{ COMBINING GRAVE ACCENT } - { COMBINING ACUTE ACCENT }
+21	{ COMBINING GRAVE ACCENT } - {  }
+21	{ ε } - {  }
+20	{ COMBINING COMMA ABOVE } - {  }
+19	{ COMBINING ACUTE ACCENT } - { COMBINING GRAVE ACCENT }
+19	{ τ } - {  }
+16	{ COMBINING GREEK YPOGEGRAMMENI } - {  }
+14	{ , } - {  }
+14	{ υ } - {  }
+14	{ COMBINING GREEK PERISPOMENI } - {  }
+11	{  } - { COMBINING ACUTE ACCENT }
+11	{ λ } - {  }
+10	{ σ } - {  }
+10	{ η } - {  }
+10	{ ο } - {  }
+9	{  } - { ν }
+8	{ COMBINING DIAERESIS } - {  }
+8	{ ω } - {  }
+8	{ γ } - {  }
+8	{ COMBINING REVERSED COMMA ABOVE } - {  }
+8	{ π } - {  }
+7	{  } - { υ }
+7	{ μ } - {  }
+6	{  } - { ι }
+6	{ Ε } - { ε }
+6	{  } - { COMBINING GRAVE ACCENT }
+6	{ θ } - {  }
+5	{  } - { ο }
+5	{  } - { COMBINING COMMA ABOVE }
+5	{ ρ } - {  }
+5	{  } - { ε }
+5	{ ς } - {  }
+5	{ 6 } - {  }
+5	{ θ } - { Θ }
+5	{ κ } - {  }
+4	{ . } - { · }
+4	{ 9 } - {  }
+4	{  } - { , }
+4	{  } - { COMBINING GREEK PERISPOMENI }
+4	{ · } - {  }
+4	{ COMBINING COMMA ABOVE } - { COMBINING REVERSED COMMA ABOVE }
+4	{  } - { . }
+3	{ η } - { ο }
+3	{ 5 } - {  }
+3	{ υ } - { ο }
+3	{ Τ } - { τ }
+3	{ ζ } - {  }
+3	{ . } - {  }
+2	{ η } - { ε }
+2	{ ο } - { ε }
+2	{  } - { ρ }
+2	{ - } - {  }
+2	{ ε } - { ο }
+2	{ τ } - { π }
+2	{ COMBINING GREEK PERISPOMENI } - { COMBINING ACUTE ACCENT }
+2	{ α } - { ε }
+2	{  } - { COMBINING REVERSED COMMA ABOVE }
+2	{  } - { τ }
+2	{ ’ } - { COMBINING GRAVE ACCENT }
+2	{ Δ } - { δ }
+2	{ &#34; } - {  }
+2	{ φ } - {  }
+2	{  } - { δ }
+2	{  } - { π }
+2	{ COMBINING GRAVE ACCENT } - { COMBINING REVERSED COMMA ABOVE }
+2	{ · } - { . }
+2	{ Ο } - { ο }
+2	{ , } - { . }
+1	{ A } - { Α }
+1	{ ν } - { τ }
+1	{  } - { μ }
+1	{  } - { Ι }
+1	{ Θ } - {  }
+1	{ Β } - {  }
+1	{ σ } - { τ }
+1	{ . } - { ; }
+1	{ τ } - { ρ }
+1	{ μ } - { κ }
+1	{ σ } - { ς }
+1	{  } - { ς }
+1	{ Θ } - { θ }
+1	{ 0 } - {  }
+1	{ I } - { Ι }
+1	{ Κ } - { κ }
+1	{ ω } - { ο }
+1	{ γ } - { COMBINING ACUTE ACCENT }
+1	{ α } - { ’ }
+1	{ ι } - { υ }
+1	{ ς } - { COMBINING GRAVE ACCENT }
+1	{ π } - { κ }
+1	{ π } - { σ }
+1	{  } - { η }
+1	{ ’ } - { ρ }
+1	{ σ } - { ν }
+1	{  } - { Π }
+1	{ SPACE } - { ι }
+1	{ 2 } - {  }
+1	{ δ } - {  }
+1	{ ψ } - {  }
+1	{ χ } - {  }
+1	{ γ } - { δ }
+1	{ ε } - { α }
+1	{  } - { Α }
+1	{ τ } - { ι }
+1	{ ε } - { COMBINING COMMA ABOVE }
+1	{ σ } - { ε }
+1	{ ω } - { COMBINING GRAVE ACCENT }
+1	{  } - { COMBINING GREEK YPOGEGRAMMENI }
+1	{  } - { &#34; }
+1	{ κ } - { ο }
+1	{ COMBINING REVERSED COMMA ABOVE } - { COMBINING GRAVE ACCENT }
+1	{ ’ } - {  }
+1	{ ; } - { . }
+1	{ σ } - { α }
+1	{ 1 } - {  }
+1	{ 0 } - { 5 }
+1	{ &#39; } - { · }
+1	{ Π } - { Ι }
+1	{ ο } - { ω }
+1	{ SPACE } - { &#34; }
+1	{ &#39; } - {  }
+1	{ ς } - { σ }
+1	{  } - { α }
+1	{ Ρ } - {  }
+1	{ ν } - { ο }
+1	{  } - { - }
+1	{ τ } - { σ }
+1	{ COMBINING GRAVE ACCENT } - { COMBINING GREEK PERISPOMENI }
+1	{  } - { Ο }
+1	{ · } - { , }
+1	{ o } - { ο }
+1	{ 2 } - { 1 }
+1	{ ε } - { ι }
+1	{ 2 } - { 0 }
+1	{ COMBINING GREEK PERISPOMENI } - { COMBINING GRAVE ACCENT }
+1	{ COMBINING REVERSED COMMA ABOVE } - { COMBINING COMMA ABOVE }
+
+Average accuracy: 98.68%, (stddev: 0.00)
